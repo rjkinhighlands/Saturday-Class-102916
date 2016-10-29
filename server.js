@@ -18,8 +18,8 @@ app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 // ROUTER //
 
-require('./app/routing/api-routes.js')(app); 
-require('./app/routing/html-routes.js')(app);
+require('./restaurant/routing/api-routes.js')(app); 
+require('./restaurant/routing/html-routes.js')(app);
 
 // LISTENER //
 
